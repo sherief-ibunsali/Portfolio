@@ -2,7 +2,7 @@
   header {
     padding: 0;
   }
-  header.right-header {
+  header .right-header {
     padding: 2rem !important;
   }
 
@@ -17,7 +17,7 @@
   }
   .left-header {
     .h-shape {
-      display: none;
+      display: none !important ;
     }
   }
   .right-header {
@@ -34,8 +34,40 @@
       grid-template-columns: 1fr;
       padding-top: 2.5rem;
     }
+    .left-about {
+      padding-right: 0;
+      p {
+        padding-left: 0;
+      }
+    }
   }
-
+  .timeline {
+    grid-template-columns: 1fr;
+    padding-bottom: 6rem;
+  }
+  .about-stats {
+    .progress-bars {
+      grid-template-columns: 1fr;
+      padding-bottom: 6rem;
+    }
+  }
+  .portfolios {
+    grid-template-columns: 1fr;
+    padding-bottom: 6rem;
+  }
+  .blogs {
+    grid-template-columns: 1fr;
+  }
+  .contact-content-con {
+    flex-direction: column;
+    .right-contact {
+      margin-left: 0;
+      margin-top: 2.5rem;
+    }
+  }
+  .section {
+    padding: 2rem 2.5rem !important;
+  }
   .controlls {
     top: auto;
     bottom: 0;
